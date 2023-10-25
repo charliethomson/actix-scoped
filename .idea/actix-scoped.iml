@@ -4,9 +4,12 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/actix_scoped/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/actix_scoped_derive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/actix_scoped_example/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/actix_scoped/target" />
       <excludeFolder url="file://$MODULE_DIR$/actix_scoped_derive/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/actix_scoped/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/actix_scoped_derive/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

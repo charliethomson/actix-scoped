@@ -48,7 +48,6 @@ async fn test(param: RequestId) -> HttpResponse {
     let rid = RequestId::get().unwrap().unwrap().0.clone();
     let prid = param.0.clone();
 
-
     let bar = foo();
     let ok = bar.rid == rid && rid == prid;
     let response = Response2 { data: (rid, bar.rid, prid), message: format!("ok?????? {}", ok).into() };
