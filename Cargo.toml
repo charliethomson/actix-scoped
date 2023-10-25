@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "actix_scoped",
+    "actix_scoped_derive",
+    "actix_scoped_example"
+]
